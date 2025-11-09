@@ -10,6 +10,7 @@ En esta prueba se utilizó la opción no bloqueante, es decir, sin concurrencia 
 ### Resultados estadísticos
 
 --- Mutex ---
+
 Min: 138 ns
 
 Max: 892 ns
@@ -20,6 +21,7 @@ Desv. estándar: 95.75 ns
 
 
 --- Semáforo ---
+
 Min: 290 ns
 
 Max: 912 ns
