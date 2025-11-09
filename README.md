@@ -37,6 +37,7 @@ Desv. estándar: 108.80 ns
 
 En la gráfica se ve que el mutex es más rápido que el semáforo. Las latencias del mutex están casi todas entre **200 y 300 ns**, mientras que el semáforo va un poco más lento, alrededor de **400 ns** y con más variación. Tiene sentido, porque los semáforos suelen tener más trabajo interno del sistema (más cosas que hacer en el kernel).
 
+A veces me salían algunas mediciones de más de 2000 ns, pero eran casos muy aislados, no las he tenido en cuenta para el histograma.  
 
 Aun así, los dos son bastante rápidos y funcionan bien cuando no hay varios hilos compitiendo.
 
